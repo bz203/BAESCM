@@ -60,7 +60,7 @@ If you have not used Google Earth Engine of Python format before, please follow 
    ```bash
    jupyter notebook
    ```
-3. Open `notebooks/main.ipynb` and run
+3. Open `main.ipynb` and run
 
 ## Common issues
 - **Geemap installation issues**：For more installation issues, please visit the official website for more information (https://developers.google.com/earth-engine/guides/python_install) 
