@@ -52,13 +52,9 @@ If you have not used Google Earth Engine of Python format before, please follow 
    ```bash
    conda activate gee
    ```
-2. Update current environment
-   ```bash
-   conda env update --file environment.yml
-   ```
 2. Open Jupyter Notebook：
    ```bash
-   jupyter notebook
+   jupyter lab
    ```
 3. Open `main.ipynb` and run
 
