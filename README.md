@@ -1,6 +1,6 @@
 # BAESCM
 
-BAESCM was proposed for estimating land cover areas in subregions, through downscaling the global sample information to subregion scale. Moreover, a semi-empirical method for inferring the confidence intervals of the estimated areas was introduced.  
+BAESCM was proposed for estimating land cover areas in subregions, through downscaling the global sample information to subregion scale. Moreover, a semi-empirical method for inferring the confidence intervals of the estimated areas was introduced to it.  
   
 For the flexibility and scalability, the code was implemented with Google Earth Engine of Python format, not JavaScript format.    
 
@@ -33,7 +33,7 @@ If you have not used Google Earth Engine of Python format before, please follow 
    import ee
    import geemap
    ```
-   4.3 Set the port number and then authenticate. Check the port number in Internet Properties and replace it with the corresponding local port number.
+   4.3 Set the port number and then authenticate. Check the port number in Internet Properties and replace it with the corresponding local port number. (If you can't connect to Google Earth Engine directly through the Internet, you should use a VPN tool to help before this step.)
    ```bash
    geemap.set_proxy(7890)
    ee.Authenticate()
